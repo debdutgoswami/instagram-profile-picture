@@ -23,7 +23,7 @@ def image_url(url, ctx):
 
     return profile_pic_url_hd
 
-def image_show(profile_pic_url_hd):
+def image_show(profile_pic_url_hd, username):
     """opening the image from the the URL,
         saving the opened image
 
@@ -34,4 +34,4 @@ def image_show(profile_pic_url_hd):
     response = urllib.request.urlopen(profile_pic_url_hd).read()
     img = Image.open(BytesIO(response))
     img.show()
-    img.save("my-image.png")
+    img.save("{}.png".format(username))
