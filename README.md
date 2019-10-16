@@ -9,7 +9,6 @@ Clone the repository and run the **main.py** file and enter a valid **username**
 For running this, you need to have python3 installed in your system.
 
 after that run the command
-
-### pip install -r requirements.txt
+**pip install -r requirements.txt**
 
 This will install all the necessary libraries required for this.
