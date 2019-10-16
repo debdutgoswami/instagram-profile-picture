@@ -3,8 +3,8 @@
 
 #### ESSENTIAL LIBRARIES FOR MAIN FUNCTIONALITY ####
 
-urllib3
+urllib
 beautifulsoup4
 ssl
 re
-PIL
+Pillow
