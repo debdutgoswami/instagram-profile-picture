@@ -6,7 +6,7 @@ I have used python to open and also download Instagram profile pictures as becau
 
 ## use
 
-Clone the repository and run the ```main.py``` file and enter a valid **username** as input.
+Clone the repository and run the ```main.py``` file and enter a valid `username` as input.
 
 ## requirements
 
