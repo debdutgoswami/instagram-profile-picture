@@ -13,6 +13,7 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://github.com/debdutgoswami/instagram-profile-picture",
     download_url = 'https://github.com/debdutgoswami/instagram-profile-picture/archive/v_0.0.1.tar.gz',
+    keywords = ['INSTAGRAM', 'PROFILE', 'PICTURE'],
     packages=setuptools.find_packages(),
     install_requires=[
         'beautifulsoup4',
