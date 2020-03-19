@@ -4,19 +4,24 @@
 
 I have used python to open and also download Instagram profile pictures as because Instagram does not allow us to open the picture.
 
-## use
+## installation
 
-Clone the repository and run the ```main.py``` file and enter a valid `username` as input.
+Hosted on _pypi.org_
 
-## requirements
+```
+pip install ig-profile
+```
 
-For running this, you need to have python3 installed in your system.
+## example
 
-after that run the command
-**pip install -r requirements.txt**
+```
+from ig_profile import ProfileImage as pimage
+pimage.image(YOUR_USER_NAME)
+```
 
-This will install all the necessary libraries required for this.
+The above code will simply download the desired profile picture and open it up in a new window.
 
-## Official website
 
-Instagram Profile Picture: [Official website](http://instaprofilepic.appspot.com/)
+## PyPi
+
+Instagram Profile Picture: [PyPi](https://pypi.org/project/ig-profile/)
