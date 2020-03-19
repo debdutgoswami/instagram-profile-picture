@@ -5,7 +5,9 @@ from io import BytesIO
 from bs4 import BeautifulSoup
 import re, sys
 
-def image(url, username):
+def image(username):
+    url = "https://www.instagram.com/{}/".format(username)
+
     session = requests.session()
     #header parameter is used to resolve the bad gateway 502 error
     #html = session.get(url, headers={'User-Agent': 'Mozilla/5.0'}).text
