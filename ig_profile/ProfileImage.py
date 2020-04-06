@@ -1,5 +1,4 @@
 import requests
-import urllib.parse
 from PIL import Image
 from io import BytesIO
 from bs4 import BeautifulSoup
@@ -10,13 +9,12 @@ def image(username):
 
     session = requests.session()
     #header parameter is used to resolve the bad gateway 502 error
-    #html = session.get(url, headers={'User-Agent': 'Mozilla/5.0'}).text
 
     #opening the URL and parsing it into BeautifulSoup
     try:
         html = session.get(url, headers={'User-Agent': 'Mozilla/5.0'}).text
     except:
-        print("Page not found or No internet connection")
+        raise("PageNotFound")
         sys.exit()
 
     soup = BeautifulSoup(html, 'html.parser')
