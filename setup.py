@@ -5,14 +5,14 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="ig_profile",
-    version="0.0.1",
+    version="1.0",
     author="Debdut Goswami",
     author_email="debdutgoswami@gmail.com",
     description="A simple package to extract the profile picture of a instagram user.",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/debdutgoswami/instagram-profile-picture",
-    download_url = 'https://github.com/debdutgoswami/instagram-profile-picture/archive/v_0.0.1.tar.gz',
+    download_url = 'https://github.com/debdutgoswami/instagram-profile-picture/archive/v1.0.tar.gz',
     keywords = ['INSTAGRAM', 'PROFILE', 'PICTURE'],
     packages=setuptools.find_packages(),
     install_requires=[
