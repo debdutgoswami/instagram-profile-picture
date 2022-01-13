@@ -4,6 +4,6 @@
 #### ESSENTIAL LIBRARIES FOR MAIN FUNCTIONALITY ####
 
 beautifulsoup4==4.8.2
-Pillow==8.3.2
+Pillow==9.0.0
 
 requests==2.24.0
